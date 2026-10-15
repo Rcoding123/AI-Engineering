@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+.coverage
+htmlcov/
+
+# uv / virtual environments
+.venv/
+venv/
+
+# Environment and secrets
+.env
+.env.*
+
+# Tool caches
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Scratch files
+scratch_*.py
+
+# Obsidian
+.obsidian/
